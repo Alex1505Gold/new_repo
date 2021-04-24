@@ -4,8 +4,8 @@
 
 int main()
 {
-	string name;
-	getline(cin, name);
-	cout << "Hello world " << name;
+	std::string name;
+	std::getline(std::cin, name);
+	std::cout << "Hello world " << name;
 	return 0;
 }
